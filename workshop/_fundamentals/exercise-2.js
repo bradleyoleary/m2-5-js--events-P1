@@ -7,6 +7,12 @@
 
 const combineArrays = (arr1, arr2) => {
   // Insert missing solution please
+  //Combine the two arrays
+  let newArr = arr1.concat(arr2);
+  //Need to use sort for alphabetical order
+  let newSortedArr = newArr.sort();
+
+  return newSortedArr;
 };
 
 // 2. Do a console.log to verify your function.

@@ -14,6 +14,14 @@ let foodPairings = {
 
 const getPairing = (key) => {
   // Insert missing solution please
+  //If the key is not a string, return undefined
+  if (typeof key !== "string") {
+    return "I didn't get that!";
+  } 
+  //If it is a string, return the pairing with key i.e burger: "beer"
+  else {
+    return foodPairings[key];
+  }
 };
 
 // 2. Do a console.log to verify your function.

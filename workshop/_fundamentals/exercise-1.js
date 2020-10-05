@@ -5,6 +5,14 @@
 
 const letterCount = (arr) => {
   // Insert missing solution please
+  //assigning the sum the value of 0
+  let sum = 0;
+  //iterate over the string
+  arr.forEach(function(str) {
+  //add sum to string - string length starts at 0 so It will incr amount of chars
+  sum += str.length;
+});
+return sum;
 };
 
 // 2. Do a console.log to verify your function.
